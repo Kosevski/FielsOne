@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#686868"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+   <TextView
+       android:textSize="20sp"
+       android:textColor="@color/white"
+       android:layout_margin="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Player Red:"
+      />
+   <TextView
+       android:textSize="20sp"
+       android:textColor="@color/white"
+       android:id="@+id/RedFieldsCountTv"
+       android:layout_margin="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+
+      />
+
+   </LinearLayout>
+   <LinearLayout
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <TextView
+          android:textSize="20sp"
+          android:textColor="@color/white"
+          android:layout_margin="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Player Blue:"
+          />
+      <TextView
+          android:textSize="20sp"
+          android:textColor="@color/white"
+          android:id="@+id/BlueFieldsCountTv"
+          android:layout_margin="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          />
+
+   </LinearLayout>
+
+   <Button
+       android:id="@+id/btn_reset"
+       android:layout_margin="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Reset Game"/>
+
+   <LinearLayout
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center"
+       >
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_1"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_2"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_3"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_4"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_5"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center"
+       >
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_6"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_7"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_8"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_9"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_10"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center"
+       >
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_11"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_12"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_13"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_14"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_15"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center"
+       >
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_16"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_17"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_18"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_19"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_20"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center"
+       >
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_21"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_22"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_23"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_24"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+      <ImageView
+          android:onClick="fieldClick"
+          android:id="@+id/field_25"
+          android:layout_margin="5dp"
+          android:background="@color/white"
+          android:layout_width="48dp"
+          android:layout_height="48dp"/>
+
+
+   </LinearLayout>
+
+   </LinearLayout>
+
+</LinearLayout>
